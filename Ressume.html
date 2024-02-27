@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+     #sty{
+        text-align: center;
+     }
+     #mail{
+        text-align: center;
+        margin-top:-10px;
+     }
+     #num{
+        text-align: center;
+     }
+    #ig{
+         height: 90px; 
+         width: 90px; 
+        position: absolute;
+        top: 10px;
+        left:1200px;
+     }
+     #dt,#legg1,#edu1,#hob{
+        font-size: 30px; 
+        font-style: italic;
+     }
+     #car1{
+        font-size: 25px;
+     }
+     #clg,#skl,#hb{
+      font-size: 20px;
+     }
+     #RR{
+      background-image: url(Rajkumar.jpg);
+      background-repeat: none;
+     }
+     #im1{
+      height: 100px;
+      width: 100px;
+      position: relative;
+      left: 80px;
+      bottom: 30px;
+     }
+
+    </style>
+</head>
+
+<body>
+    <script>
+        var a=document.createElement("h2");
+        a.innerText="K.Rajukumar"
+        document.body.appendChild(a);
+        a.setAttribute("id","sty");
+        
+        var mail=document.createElement("div");
+        mail.innerText="Email : kasarapurajukumar04@gmail.com"
+        document.body.appendChild(mail);
+        mail.setAttribute("id","mail");
+
+        var num=document.createElement("div");
+        num.innerText="Number : 8142980457";
+        document.body.appendChild(num);
+        num.setAttribute("id","num");
+
+        var hr=document.createElement("hr");
+        document.body.appendChild(hr);
+
+        var imgg=document.createElement("img");
+        imgg.setAttribute("src","./raj.jpg");
+        imgg.setAttribute("id","ig");
+        document.body.appendChild(imgg);
+   
+
+        var carr=document.createElement("details");
+        carr.innerText="To secure a challenging position and play a prominent role in attaing goals and effectively contribute on analyzing the sitiuation which gives me hope for betterment and useful for the oraganization.";
+        document.body.appendChild(carr);
+        var leg=document.createElement("summary")
+        carr.appendChild(leg);
+        leg.innerText="Career Objectives";
+        leg.setAttribute("id","dt");
+        carr.setAttribute("id","car1");
+
+        var hr=document.createElement("hr");
+        document.body.appendChild(hr);
+
+
+        var edu=document.createElement("fieldset");
+        edu.innerText=`1. MBA-->  LalBahadur PG College.
+                       2. BSC--> Vaagdevi Degree College.
+                       3. Intermediate-->Sri Vikas Jr.College.
+                       4. SSC-->Sri Nethaji High School.`
+            edu.setAttribute("id","clg")
+         document.body.appendChild(edu);
+         var edu1=document.createElement("legend");
+         edu1.innerText="Educational Details";
+         edu.appendChild(edu1);
+         edu1.setAttribute("id","edu1")
+
+         var hr=document.createElement("hr");
+        document.body.appendChild(hr);
+
+
+        var tech=document.createElement("fieldset");
+        tech.innerText=`1.HTML.
+                      2.CSS.
+                      3.JavaScrript.`
+         tech.setAttribute("id","skl")
+        var legg=document.createElement("legend");
+        tech.appendChild(legg);
+        legg.innerText="Techinacal Skills";
+        document.body.appendChild(tech);
+        legg.setAttribute("id","legg1");
+
+        var hr=document.createElement("hr");
+        document.body.appendChild(hr);
+
+        var hobie=document.createElement("fieldset");
+        hobie.innerText=`1. Browsing Internet.
+                         2. Waching Movies.
+                         3. Listening Music.`
+         hobie.setAttribute("id","hb");
+         var hobie1=document.createElement("legend");
+        hobie.appendChild(hobie1);
+        hobie1.innerText="Hobies";
+        document.body.appendChild(hobie);
+        hobie1.setAttribute("id","hob");
+
+        var hr=document.createElement("hr");
+        document.body.appendChild(hr);
+
+        var rr=document.createElement("p")
+        rr.innerText=`Name: Rajukumar
+                        Date: 15 Dec, 2024.
+                        Signeture: `
+         document.body.appendChild(rr)
+      
+        var img1=document.createElement("img");
+        img1.setAttribute("src","./Rajkumar.jpg");
+        img1.setAttribute("id","im1")
+        document.body.appendChild(img1);
+
+
+
+    
+       
+
+
+
+        
+
+
+
+
+    </script>
+</body>
+</html>
